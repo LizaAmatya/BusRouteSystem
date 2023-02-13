@@ -1,5 +1,4 @@
 from django.urls import path
-from django.conf.urls import include
 
 from busroute.views import BusListView, BusRoutesViewList, BusesRunningOnARouteViewList, RouteListView, home
 

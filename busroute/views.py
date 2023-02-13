@@ -1,6 +1,5 @@
-from django.shortcuts import redirect, render
-# Create your views here.
-from django.views.generic import DetailView, ListView
+from django.shortcuts import render
+from django.views.generic import DetailView
 from django_tables2 import SingleTableView
 
 from .models import Bus, BusRoute, Route
